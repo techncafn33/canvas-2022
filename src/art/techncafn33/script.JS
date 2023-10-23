@@ -20,7 +20,7 @@ function getRandomColor() {
 
 // Function to draw random lines
 function drawRandomLines() {
-  const numLines = 100; // You can adjust the number of lines
+  const numLines = 100; 
   for (let i = 0; i < numLines; i++) {
     const startX = getRandomInt(0, canvas.width);
     const startY = getRandomInt(0, canvas.height);
