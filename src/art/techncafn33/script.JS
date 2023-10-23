@@ -32,7 +32,7 @@ function drawRandomLines() {
     ctx.moveTo(startX, startY);
     ctx.lineTo(endX, endY);
     ctx.strokeStyle = color;
-    ctx.lineWidth = 2; // You can adjust the line width
+    ctx.lineWidth = 2; 
     ctx.stroke();
   }
 }
